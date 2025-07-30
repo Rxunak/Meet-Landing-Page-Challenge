@@ -12,6 +12,7 @@ header {
 
 main {
   height: auto;
+  width: 100%;
 }
 main .sectionOne {
   display: flex;
@@ -19,19 +20,22 @@ main .sectionOne {
   align-items: center;
   height: auto;
   margin-top: 2rem;
+  width: 100%;
   padding-bottom: 4rem;
 }
 main .sectionOne .divOne {
-  height: 300px;
-  width: 500px;
+  height: auto;
+  max-width: 500px;
+  width: 100%;
   display: flex;
   align-items: center;
   border: none;
   margin-bottom: 3rem;
 }
 main .sectionOne .divOne .heroLeft {
-  height: 300px;
-  width: 400px;
+  height: auto;
+  max-width: 400px;
+  width: 100%;
   -o-object-fit: fill;
      object-fit: fill;
   -o-object-position: -27px center;
@@ -39,7 +43,8 @@ main .sectionOne .divOne .heroLeft {
 }
 main .sectionOne .divTwo {
   height: auto;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   text-align: center;
 }
 main .sectionOne .divTwo .firstTitle {
@@ -87,8 +92,9 @@ main .sectionOne .divTwo .buttonHelp {
   font-weight: 600;
 }
 main .sectionOne .divThree {
-  height: 300px;
-  width: 500px;
+  height: auto;
+  max-width: 500px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -97,7 +103,8 @@ main .sectionOne .divThree {
 }
 main .sectionOne .divThree .heroRight {
   height: 300px;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   -o-object-fit: fill;
      object-fit: fill;
   -o-object-position: 25px center;
@@ -153,8 +160,8 @@ main .sectionTwo .secondInformation {
   margin-bottom: 2rem;
 }
 main .sectionTwo .secondInformation .informationTitle {
-  font-size: 10px;
-  letter-spacing: 2px;
+  font-size: 12px;
+  letter-spacing: 4px;
   font-weight: bolder;
   color: #4d96a9;
   margin: 0;
@@ -163,7 +170,7 @@ main .sectionTwo .secondInformation .informationTitleTwo {
   margin: 0;
   margin-top: 10px;
   margin-bottom: 5px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 100%;
   text-align: center;
 }
@@ -253,4 +260,57 @@ footer .overlay .hrDivTwo {
   color: #87879d;
   background-color: white;
   letter-spacing: 0;
+}
+
+@media (max-width: 1024px) {
+  main .sectionOne {
+    padding-bottom: 0;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: auto;
+  }
+  main .sectionOne .divOne {
+    margin-bottom: 20px;
+  }
+  main .sectionOne .divOne .heroLeft {
+    width: 300px;
+    height: auto;
+  }
+  main .sectionOne .divTwo .firstTitle {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 90%;
+  }
+  main .sectionOne .divTwo .secondTitle {
+    font-size: 15px;
+  }
+  main .sectionOne .divTwo .buttonDownload {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+  }
+  main .sectionOne .divTwo .buttonHelp {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+  }
+  main .sectionOne .divThree {
+    margin-top: 20px;
+  }
+  main .sectionOne .divThree .heroRight {
+    width: 300px;
+    height: auto;
+  }
+  footer .overlay .overlayText {
+    width: 230px;
+    font-size: 25px;
+  }
+  footer .overlay .overlyDes {
+    width: 250px;
+    font-size: 11px;
+  }
+  footer .overlay .overlayButton {
+    width: 170px;
+    height: 40px;
+  }
 }/*# sourceMappingURL=styles.css.map */
