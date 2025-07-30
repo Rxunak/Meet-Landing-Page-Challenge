@@ -11,15 +11,99 @@
       href="./assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Meet landing page</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <img src="assets/logo.svg" alt="" height="30px" width="130px" />
+    </header>
     <main>
-      <section></section>
-      <section></section>
+      <section class="sectionOne">
+        <div class="sectionDiv divOne">
+          <img
+            src="assets/desktop/image-hero-left.png"
+            alt=""
+            class="heroLeft"
+          />
+        </div>
+        <div class="sectionDiv divTwo">
+          <h1 class="firstTitle">Group Chat for Everyone</h1>
+          <p class="secondTitle">
+            Meet makes it east to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="buttonNav">
+            <button class="buttonDownload">
+              Download <span class="downloadBtton">v1.3</span>
+            </button>
+            <button class="buttonHelp">What is it?</button>
+          </div>
+        </div>
+        <div class="sectionDiv divThree">
+          <img
+            src="assets/desktop/image-hero-right.png"
+            alt=""
+            class="heroRight"
+          />
+        </div>
+      </section>
+      <section class="sectionTwo">
+        <div class="rotation">
+          <hr class="hrLine" />
+          <div class="hrDiv">01</div>
+        </div>
+        <div class="imageGrid">
+          <img
+            src="assets/desktop/image-woman-in-videocall.jpg"
+            alt=""
+            class="imageRange"
+          />
+          <img
+            src="assets/desktop/image-women-videochatting.jpg"
+            alt=""
+            class="imageRange"
+          />
+          <img
+            src="assets/desktop/image-men-in-meeting.jpg"
+            alt=""
+            class="imageRange"
+          />
+          <img
+            src="assets/desktop/image-man-texting.jpg"
+            alt=""
+            class="imageRange"
+          />
+        </div>
+        <div class="secondInformation">
+          <p class="informationTitle">BUILT FOR MODERN USE</p>
+          <h1 class="informationTitleTwo">
+            Smarter meetings, all <br />
+            in one place
+          </h1>
+          <p class="informationTitleThree">
+            Send messages, share files, show your screen, and record your
+            meetings - all in one workspace. Control who can join with invite
+            only team access, data encryption, and data export.
+          </p>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="overlay">
+        <h1 class="overlayText">Experience more together</h1>
+        <p class="overlyDes">
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
+        </p>
+        <button class="overlayButton">Download <span class="overlaySpan">v1.3</span></button>
+      </div>
+    </footer>
   </body>
 </html>
