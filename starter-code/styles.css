@@ -105,7 +105,7 @@ main .sectionOne .divThree .heroRight {
 }
 main .sectionTwo {
   height: auto;
-  padding-bottom: 3rem;
+  padding-bottom: 7.5rem;
 }
 main .sectionTwo .rotation {
   padding-top: 2rem;
@@ -185,6 +185,7 @@ footer {
 footer .overlay {
   width: 100%;
   height: 300px;
+  position: relative;
   background-color: rgba(77, 150, 169, 0.8);
   display: flex;
   justify-content: space-evenly;
@@ -222,5 +223,34 @@ footer .overlay .overlayButton {
   font-weight: 600;
 }
 footer .overlay .overlaySpan {
-  color: #D9B8FF;
+  color: #d9b8ff;
+}
+footer .overlay .rotationTwo {
+  position: absolute;
+  bottom: 17.5rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+footer .overlay .hrLineTwo {
+  width: 80px;
+  rotate: 90deg;
+  border: 1px solid #d1d1df;
+}
+footer .overlay .hrDivTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d1d1df;
+  height: 40px;
+  width: 40px;
+  margin-top: 1rem;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #87879d;
+  background-color: white;
+  letter-spacing: 0;
 }/*# sourceMappingURL=styles.css.map */
