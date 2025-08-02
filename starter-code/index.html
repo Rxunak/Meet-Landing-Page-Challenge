@@ -27,11 +27,17 @@
     <main>
       <section class="sectionOne">
         <div class="sectionDiv divOne">
-          <img
-            src="assets/desktop/image-hero-left.png"
-            alt=""
-            class="heroLeft"
-          />
+          <picture class="pictureTag">
+            <source
+              media="(max-width: 768px )"
+              srcset="assets/tablet/image-hero.png"
+            />
+            <img
+              src="assets/desktop/image-hero-left.png"
+              alt=""
+              class="heroLeft"
+            />
+          </picture>
         </div>
         <div class="sectionDiv divTwo">
           <h1 class="firstTitle">Group Chat for Everyone</h1>

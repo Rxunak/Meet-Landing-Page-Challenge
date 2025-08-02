@@ -25,8 +25,8 @@ main .sectionOne {
 }
 main .sectionOne .divOne {
   height: auto;
-  max-width: 500px;
   width: 100%;
+  max-width: 500px;
   display: flex;
   align-items: center;
   border: none;
@@ -312,5 +312,89 @@ footer .overlay .hrDivTwo {
   footer .overlay .overlayButton {
     width: 170px;
     height: 40px;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    height: auto;
+  }
+  main .sectionOne {
+    height: auto;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+  main .sectionOne .divOne {
+    min-width: 100%;
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+  main .sectionOne .divOne .pictureTag {
+    width: 100%;
+    height: 23.5rem;
+  }
+  main .sectionOne .divOne .pictureTag .heroLeft {
+    min-width: 100%;
+    height: 80%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 48% 0%;
+       object-position: 48% 0%;
+  }
+  main .sectionOne .divTwo .firstTitle {
+    font-size: 3.5em;
+    font-weight: 700;
+    line-height: 90%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  main .sectionOne .divTwo .secondTitle {
+    font-size: 1rem;
+  }
+  main .sectionOne .divTwo .buttonNav .buttonDownload {
+    width: 160px;
+  }
+  main .sectionOne .divTwo .buttonNav .buttonHelp {
+    width: 160px;
+  }
+  main .sectionOne .divThree {
+    display: none;
+  }
+  main .sectionTwo .imageGrid {
+    grid-template-columns: repeat(4, 140px);
+  }
+  main .sectionTwo .imageGrid .imageRange {
+    width: 140px;
+    height: 140px;
+  }
+  main .sectionTwo .secondInformation .informationTitleTwo {
+    font-size: 2rem;
+  }
+  footer {
+    background-image: url(assets/tablet/image-footer.jpg);
+  }
+  footer .overlay {
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .overlay .overlayText {
+    justify-content: center;
+    width: 30rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  footer .overlay .overlyDes {
+    text-align: center;
+    width: 30rem;
+    height: 3rem;
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  footer .overlay .overlayButton {
+    width: 10rem;
+    height: 3rem;
   }
 }/*# sourceMappingURL=styles.css.map */
