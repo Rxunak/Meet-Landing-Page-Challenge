@@ -397,4 +397,89 @@ footer .overlay .hrDivTwo {
     width: 10rem;
     height: 3rem;
   }
+}
+@media (max-width: 600px) {
+  main .sectionOne {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  main .sectionOne .divOne {
+    height: 13rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  main .sectionOne .divOne .pictureTag {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: auto;
+  }
+  main .sectionOne .divOne .pictureTag .heroLeft {
+    width: 100%;
+    height: auto;
+  }
+  main .sectionOne .divTwo .firstTitle {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 600px) and (max-width: 375px) {
+  main .sectionOne .divTwo .firstTitle {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  main .sectionOne .divTwo .secondTitle {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  main .sectionOne .divTwo .buttonNav {
+    flex-direction: column;
+  }
+  main .sectionOne .divTwo .buttonNav .buttonDownload {
+    width: 150px;
+  }
+  main .sectionOne .divTwo .buttonNav .buttonHelp {
+    width: 120px;
+  }
+  main .sectionTwo .imageGrid {
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    gap: 1.5rem 1rem;
+  }
+  main .sectionTwo .imageGrid .imageRange {
+    width: 150px;
+  }
+  main .sectionTwo .secondInformation .informationTitleTwo {
+    font-size: 27px;
+  }
+  main .sectionTwo .secondInformation .informationTitleThree {
+    width: 18rem;
+    font-size: 15px;
+  }
+  footer {
+    background-image: url(assets/mobile/image-footer.jpg);
+  }
+  footer .overlay {
+    justify-content: space-evenly;
+  }
+  footer .overlay .overlayText {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+  footer .overlay .overlyDes {
+    height: auto;
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=styles.css.map */
